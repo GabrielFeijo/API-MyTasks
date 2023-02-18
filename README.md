@@ -1,4 +1,4 @@
-# API-99Pets
+# API-MyTasks
 
 • API criada para integrar o projeto feito em React de um [gerenciador de tarefas](https://github.com/GabrielFeijo/React-ToDo).
 
