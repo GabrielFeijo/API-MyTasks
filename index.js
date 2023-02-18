@@ -10,7 +10,8 @@ app.use(express.json({ limit: '10kb' }));
 const Code = mongoose.model('code');
 const Task = mongoose.model('tasks');
 
-mongoose.connect('url-do-banco-de-dados-MongoDB', {
+const url_banco = 'url-do-banco-de-dados-MongoDB'
+mongoose.connect(url_banco, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
