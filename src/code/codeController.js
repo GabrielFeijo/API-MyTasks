@@ -4,7 +4,7 @@ const Code = mongoose.model('code');
 
 module.exports = {
 	async indexByCode(req, res) {
-		const existente = await Code.findOne({ code: req.params.code });
+		const existente = await Code.findOne({ code: req.query.code });
 
 		if (existente) {
 			res.send(existente);

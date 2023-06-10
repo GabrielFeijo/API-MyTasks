@@ -4,7 +4,7 @@ const Task = mongoose.model('tasks');
 
 module.exports = {
 	async indexByCode(req, res) {
-		Task.find({ code: req.params.code })
+		Task.find({ code: req.query.code })
 			.then((data) => {
 				res.send(data);
 			})
