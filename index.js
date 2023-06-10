@@ -28,6 +28,10 @@ app.get('/', (_, res) => {
 
 app.use('/api', routes);
 
+app.use((_, res) => {
+	res.status(404).send('Rota não encontrada!');
+});
+
 app.listen(config.port, () => {
 	console.log('O servidor está no ar');
 });
