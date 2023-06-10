@@ -1,28 +1,64 @@
 # API-MyTasks
 
-• API criada para integrar o projeto feito em React de um [gerenciador de tarefas](https://github.com/GabrielFeijo/React-ToDo).
+Bem-vindo à API MyTasks! Esta API foi criada para integrar o projeto do Gerenciador de Tarefas desenvolvido em React.
 
+## Requisitos
 
-• O conceito de **API** nada mais é do que uma forma de comunicação entre sistemas. Ou seja, elas permitem a **integração** entre dois sistemas, em que um deles fornece informações e serviços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação do software.
+Antes de começar a utilizar a API de Quiz, certifique-se de ter os seguintes requisitos instalados em seu ambiente de desenvolvimento:
 
-### Passo a Passo para a execução desta aplicação
+- Node.js: Você pode baixar e instalar o Node.js a partir do [site oficial](https://nodejs.org).
+- MongoDB: A API de Quiz utiliza o MongoDB como banco de dados. Você pode baixar e instalar o MongoDB a partir do [site oficial](https://www.mongodb.com)
 
-1. Antes de rodar este projeto, é necessário instalar o Node e o Mongo DB em seu ambiente. 
+## Instalação
 
-2. Baixe o Node Js e o Mongo através destes sites: [Node JS](https://nodejs.org/en/) | [MongoDB](https://www.mongodb.com/try/download/community)
+Siga as etapas abaixo para configurar a API de Quiz em seu ambiente local:
 
-3. Após instalar o Node e o MongoDB baixe o código fonte completo da API através deste repositório.
+1. Clone o repositório do GitHub:
 
-4. Abra o terminal no seguinte diretório: /**API-MyTasks**
+   ```bash
+   git clone https://github.com/GabrielFeijo/API-MyTasks.git
+   ```
 
-5. No terminal execute o comando [$ npm install]
+2. Acesse o diretório do projeto:
 
-6. Com todas as dependências baixadas e instaladas, configure a URL do seu banco de dados no arquivo index.js. Adicione a URL na constante url_banco na linha 13.
+   ```bash
+   cd api-mytasks
+   ```
 
-7. Com tudo configurado retorne para o terminal e execute o comando: [$npm start] ou [$node index.js]
+3. Instale as dependências do projeto:
 
-8. Se tudo ocorreu bem no seu terminal irá aparecer as seguintes mensagens:
+   ```bash
+   npm install
+   ```
 
-    "O servidor está no ar"
-   "Eu consegui me conectar ao Mongo! Yess!"
+4. Inicie o servidor de desenvolvimento:
 
+   ```bash
+   npm start ou npm run start-dev
+   ```
+
+Após executar o comando acima, o servidor de desenvolvimento será iniciado na porta padrão 3000. Agora você pode começar a interagir com a API de Quiz.
+
+## Utilização
+
+A API MyTasks fornece endpoints para criar, buscar, atualizar e excluir tarefas. Você pode fazer requisições HTTP para os seguintes endpoints:
+
+### Códigos
+
+- `GET /code`: Retorna os detalhes com base no código fornecido.
+- `POST /code`: Adiciona um novo código.
+- `PUT /code/:id`: Atualiza um código existente com base no ID.
+- `DELETE /deleteCode/:id`: Exclui um código existente com base no ID.
+
+### Tarefas
+
+- `GET /task`: Retorna os detalhes de uma tarefa com base no código.
+- `POST /task`: Adiciona uma nova tarefa.
+- `PUT /task/:id`: Atualiza uma tarefa existente com base no ID.
+- `DELETE /task/:id`: Exclui uma tarefa existente com base no ID.
+
+Certifique-se de incluir os dados corretos no corpo das requisições POST e PUT, seguindo o formato adequado para cada rota.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Para mais informações, consulte o arquivo LICENSE.
