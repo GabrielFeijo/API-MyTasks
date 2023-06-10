@@ -4,14 +4,14 @@ Bem-vindo à API MyTasks! Esta API foi criada para integrar o projeto do Gerenci
 
 ## Requisitos
 
-Antes de começar a utilizar a API de Quiz, certifique-se de ter os seguintes requisitos instalados em seu ambiente de desenvolvimento:
+Antes de começar a utilizar a API MyTasks, certifique-se de ter os seguintes requisitos instalados em seu ambiente de desenvolvimento:
 
 - Node.js: Você pode baixar e instalar o Node.js a partir do [site oficial](https://nodejs.org).
 - MongoDB: A API de Quiz utiliza o MongoDB como banco de dados. Você pode baixar e instalar o MongoDB a partir do [site oficial](https://www.mongodb.com)
 
 ## Instalação
 
-Siga as etapas abaixo para configurar a API de Quiz em seu ambiente local:
+Siga as etapas abaixo para configurar a API MyTasks em seu ambiente local:
 
 1. Clone o repositório do GitHub:
 
@@ -37,7 +37,7 @@ Siga as etapas abaixo para configurar a API de Quiz em seu ambiente local:
    npm start ou npm run start-dev
    ```
 
-Após executar o comando acima, o servidor de desenvolvimento será iniciado na porta padrão 3000. Agora você pode começar a interagir com a API de Quiz.
+Após executar o comando acima, o servidor de desenvolvimento será iniciado na porta padrão 3000. Agora você pode começar a interagir com a API MyTasks.
 
 ## Utilização
 
