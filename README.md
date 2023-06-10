@@ -7,7 +7,7 @@ Bem-vindo à API MyTasks! Esta API foi criada para integrar o projeto do Gerenci
 Antes de começar a utilizar a API MyTasks, certifique-se de ter os seguintes requisitos instalados em seu ambiente de desenvolvimento:
 
 - Node.js: Você pode baixar e instalar o Node.js a partir do [site oficial](https://nodejs.org).
-- MongoDB: A API de Quiz utiliza o MongoDB como banco de dados. Você pode baixar e instalar o MongoDB a partir do [site oficial](https://www.mongodb.com)
+- MongoDB: A API MyTasks utiliza o MongoDB como banco de dados. Você pode baixar e instalar o MongoDB a partir do [site oficial](https://www.mongodb.com)
 
 ## Instalação
 
